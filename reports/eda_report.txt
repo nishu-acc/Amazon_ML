@@ -1,0 +1,120 @@
+Business Entity Resolution - Exploratory Data Analysis
+========================================================
+
+File: dataset/train/train_source1.tsv
+Rows: 2206821
+Columns: entity_id, business_name, business_address, country
+Missing values by column:
+  'entity_id': 0
+  'business_name': 0
+  'business_address': 0
+  'country': 0
+Duplicate entity ID rows: 0
+Duplicate entity IDs: (none)
+Country distribution:
+  'US': 1323633
+  'India': 883188
+Empty business_name values: 0
+Empty business_address values: 0
+
+File: dataset/train/train_source2.tsv
+Rows: 5034616
+Columns: entity_id, business_name, business_address, country
+Missing values by column:
+  'entity_id': 0
+  'business_name': 2
+  'business_address': 168967
+  'country': 0
+Duplicate entity ID rows: 0
+Duplicate entity IDs: (none)
+Country distribution:
+  'US': 3016817
+  'India': 2017799
+Empty business_name values: 2
+Empty business_address values: 168967
+
+File: dataset/train/train_source3.tsv
+Rows: 5285603
+Columns: entity_id, business_name, business_address, country
+Missing values by column:
+  'entity_id': 0
+  'business_name': 13
+  'business_address': 175916
+  'country': 0
+Duplicate entity ID rows: 0
+Duplicate entity IDs: (none)
+Country distribution:
+  'US': 3170056
+  'India': 2115547
+Empty business_name values: 13
+Empty business_address values: 175916
+
+File: dataset/test/test_source1.tsv
+Rows: 1732544
+Columns: entity_id, business_name, business_address, country
+Missing values by column:
+  'entity_id': 0
+  'business_name': 0
+  'business_address': 0
+  'country': 0
+Duplicate entity ID rows: 0
+Duplicate entity IDs: (none)
+Country distribution:
+  'India': 809986
+  'US': 663106
+  'France': 259452
+Empty business_name values: 0
+Empty business_address values: 0
+
+File: dataset/test/test_source2.tsv
+Rows: 4887273
+Columns: entity_id, business_name, business_address, country
+Missing values by column:
+  'entity_id': 0
+  'business_name': 46
+  'business_address': 129408
+  'country': 0
+Duplicate entity ID rows: 0
+Duplicate entity IDs: (none)
+Country distribution:
+  'India': 2312565
+  'US': 1871330
+  'France': 703378
+Empty business_name values: 46
+Empty business_address values: 129408
+
+File: dataset/test/test_source3.tsv
+Rows: 5082316
+Columns: entity_id, business_name, business_address, country
+Missing values by column:
+  'entity_id': 0
+  'business_name': 59
+  'business_address': 136098
+  'country': 0
+Duplicate entity ID rows: 0
+Duplicate entity IDs: (none)
+Country distribution:
+  'India': 2405000
+  'US': 1945701
+  'France': 731615
+Empty business_name values: 59
+Empty business_address values: 136098
+
+Ground Truth
+------------
+File: dataset/train/train_ground_truth.tsv
+Total rows: 2206821
+Empty matched_entity_ids: 123247
+Match count distribution per Source 1 entity:
+  0: 123247
+  1: 119157
+  2: 375212
+  3: 530841
+  4: 484115
+  5: 321957
+  6: 164868
+  7: 63968
+  8: 18680
+  9: 4205
+  10: 534
+  11: 37
