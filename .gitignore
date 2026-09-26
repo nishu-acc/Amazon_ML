@@ -1,0 +1,20 @@
+
+# Large datasets
+dataset/
+
+# Generated output files and databases
+output/
+
+# Temporary files
+tmp/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Logs
+*.log
